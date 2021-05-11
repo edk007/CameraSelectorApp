@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CameraSelectorApp" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/medium_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorPrimary</item>
+        <!-- Customize your theme here. -->
+
+        <!-- edit text bottom line when not editing -->
+        <item name="colorControlNormal">@color/medium_grey</item>
+        <!-- Switches in ON position, Slider Bar Level, Edit Text bottom line when editing -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <!-- list when item tapped -->
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+</resources>
